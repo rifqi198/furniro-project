@@ -49,7 +49,15 @@ const Home = () => {
 
     return(
         <div>
-            <div className="home-banner" style={{}}>
+            <div className="home-banner" style={{
+                background: `url("./background.jpeg") no-repeat center`,
+                backgroundSize: "cover",
+                height: "100vh",
+                display: "flex",
+                justifyContent: "right",
+                alignItems: "center",
+                paddingRight: "58px"
+            }}>
                 <div className="home-banner-box">
                     <span>New Arrival</span>
                     <h1 className="home-banner-headline">Discover Our New Collection</h1>
@@ -95,7 +103,15 @@ const Home = () => {
                     ))}
                 </Slider>
             </section>
-            <section className="home-last">
+            <section className="home-last" style={{
+                background: `url("./frame.svg") no-repeat`,
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                backgroundSize: "contain",
+                padding: "3.125rem"
+            }}>
                 <span>Share your setup with</span>
                 <h1>#FurniroFurniture</h1>
             </section>
