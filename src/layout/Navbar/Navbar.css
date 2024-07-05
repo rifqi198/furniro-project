@@ -1,0 +1,132 @@
+nav{
+    height: 6.25rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    width: auto;
+}
+
+nav > *{
+    cursor: pointer;
+}
+
+.nav-logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 5rem;
+}
+
+.nav-name{
+    font-family: 'Montserrat', sans-serif;
+    margin: -0.5rem;
+    font-size: 34px;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    gap: 4.688rem;
+    justify-self: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: #B88E2F;
+    scale: 1.5;
+}
+
+.nav-link > li{
+    width: fit-content;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav-link > li:hover{
+    color: #B88E2F;
+    scale: 1.5;
+}
+
+.nav-interact{
+    display: flex;
+    list-style: none;
+    gap: 2.813rem;
+    justify-self: end;
+}
+
+.drawer-container{
+    width: fit-content;
+    padding: 2rem;
+}
+
+.drawer-head-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+
+.drawer-image{
+    width: 8rem;
+    height: 10rem;
+    border-radius: 0.3rem;
+}
+
+.drawer-product{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0rem;
+}
+
+.drawer-product-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.drawer-product-detail{
+    font-weight: 500;
+}
+
+.drawer-product-name{
+    font-size: 1.5rem;
+}
+
+.drawer-price{
+    color: #B88E2F;
+}
+
+.drawer-subtotal{
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    gap: 10rem;
+}
+
+.drawer-subtotal > span{
+    color: #B88E2F;
+}
+
+.drawer-button-container{
+    display: flex;
+    gap: 5rem;
+    border-top: 1px solid grey;
+    padding-top: 1rem;
+}
+
+.drawer-button{
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1.5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+}

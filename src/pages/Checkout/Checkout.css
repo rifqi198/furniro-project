@@ -1,0 +1,69 @@
+.checkout-container{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 3rem 0rem;
+}
+.checkout-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20rem;
+}
+
+.checkout-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout-input > input, select{
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: 2px solid rgb(178, 178, 178);
+}
+
+.checkout-input > label {
+    font-weight: 500;
+}
+
+.checkout-name-input{
+    display: flex;
+    gap: 1rem;
+}
+
+.checkout-name-input > div > input{
+    width: 9rem;
+}
+
+.checkout-total-container{
+    width: 25rem;
+    margin-top: 5rem;
+}
+
+.total-property{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name{
+    color: rgb(194, 194, 194);
+}
+
+.checkout-button-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.checkout-button{
+    padding: 1rem 3rem;
+    width: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,71 @@
+.shop-top-banner{
+    background: url("https://images.unsplash.com/photo-1625494025723-5a401deae8c8?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center;
+    height: 16rem;
+}
+
+.shop-top-banner-text{
+    backdrop-filter: blur(0.3rem);
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-top-banner-text > h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.shop-top-banner-text > p{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.shop-top-banner-text > p > span{
+    font-weight: 500;
+}
+
+.shop-toolbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 6.25rem;
+    height: 6.25rem;
+    background-color: #F9F1E7;
+}
+
+.shop-toolbar-first{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.shop-toolbar-filter{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sort-select{
+    height: fit-content;
+}
+
+.filter-bar{
+    display: flex;
+    gap: 1rem
+}
+
+.shop-product-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3.125rem 0rem;
+}
+
+.shop-product-pagination{
+    width: 100%;
+    justify-content: center;
+}
